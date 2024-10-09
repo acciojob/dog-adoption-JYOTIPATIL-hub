@@ -26,8 +26,9 @@
         <!-- Golden Retriever -->
         <li>
             <a href="https://en.wikipedia.org/wiki/Golden_Retriever" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Golden_Retriever_stack.JPG" alt="Golden Retriever">
-            </a>
+state:"failed"
+body:"() => { cy.visit(baseUrl + "/main.html"); cy.get("img").eq(1).invoke("attr", "src").then(span => { expect(span).equal("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg"); }); }"
+displayError:"AssertionError: expected 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Poodle_on_White_07-09-2012.jpg' to equal 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg' at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/tests/test.spec.js:118:20            </a>
         </li>
 
         <!-- Poodle -->
