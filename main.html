@@ -1,43 +1,49 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dog Breeds for Ritesh</title>
-    <style>
-        ul {
-            list-style-type: none;
-        }
-        li {
-            margin-bottom: 20px;
-        }
-        img {
-            width: 300px;
-            height: auto;
-            border-radius: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Adoption - Ritesh</title>
+  <style>
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    li {
+      margin: 20px;
+    }
+
+    img {
+      width: 300px;
+      height: 200px;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Dog Breeds</h1>
+  <h1>Dog Breeds for Adoption</h1>
 
-    <ul>
-        <!-- Golden Retriever -->
-        <li>
-            <a href="https://en.wikipedia.org/wiki/Golden_Retriever" target="_blank">
-state:"failed"
-body:"() => { cy.visit(baseUrl + "/main.html"); cy.get("img").eq(1).invoke("attr", "src").then(span => { expect(span).equal("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg"); }); }"
-displayError:"AssertionError: expected 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Poodle_on_White_07-09-2012.jpg' to equal 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg' at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/tests/test.spec.js:118:20            </a>
-        </li>
-
-        <!-- Poodle -->
-        <li>
-            <a href="https://en.wikipedia.org/wiki/Poodle" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Poodle_on_White_07-09-2012.jpg" alt="Poodle">
-            </a>
-        </li>
-    </ul>
+  <ul>
+    <!-- Golden Retriever -->
+    <li>
+      <a href="https://en.wikipedia.org/wiki/Golden_Retriever" target="_blank">
+        <img src="https://example.com/golden-retriever.jpg" alt="Golden Retriever">
+      </a>
+      <p>Golden Retriever</p>
+    </li>
+    
+    <!-- Poodle -->
+    <li>
+      <a href="https://en.wikipedia.org/wiki/Poodle" target="_blank">
+        <img src="https://example.com/poodle.jpg" alt="Poodle">
+      </a>
+      <p>Poodle</p>
+    </li>
+  </ul>
 
 </body>
 </html>
